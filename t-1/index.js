@@ -1,12 +1,23 @@
-function sum(num1 =0 ,num2 =0 oprator)  {
-    if(!isNaN(num1 , num2)){
-        switch()
+function sum(a = 0, b = 0, o)  {
+    if (!isNaN(a + b)) {
+        switch (o) {
+            case '+':
+                return(a + b);
+            case '-':
+                return(a - b);
+            case '*':
+                return(a * b);
+            case '/':
+                return(a / b);  
+            default:
+                return ("oprator is wrong!")      
+        }
     }
-    return num1 + num2;
+    return "something wrong!"
 }
 
 const num1 = +prompt("add number1");
-const oprator = prompt("oprator");
 const num2 = +prompt("add number2");
+const operator = prompt("operator");
 
-console.log("sum(num1, oprator, num2)");
+console.log(sum(num1, num2, operator))
