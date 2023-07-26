@@ -1,3 +1,3 @@
-const MyText = ("enter text");
-console.log("result");
-result.innerHTML=MyText.toLocaleUpperCase();
+const MyText = ("some text");
+const result=MyText.toLocaleUpperCase();
+console.log(result);
