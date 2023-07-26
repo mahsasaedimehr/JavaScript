@@ -6,3 +6,5 @@ fourth: define the switch function
 fifth: return function
 sixth: const numbers and operator
 end add in consol
+
+# js-3/t-2/a function that takes a sentence with lowercase letters and converts it to uppercase letter
