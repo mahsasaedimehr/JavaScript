@@ -8,3 +8,10 @@ end.
 
 
 # A function that searches for a word in a sentence
+
+# write an object that display information about a product
+ write an object that display information about a product along with two methods, one to add to the shopping cart with empty content and one to remove from the shopping cart with empty content
+ we use object to wirte this code 
+ add specifications...
+ and define function to show add to cart and remove from cart option
+ 
