@@ -6,12 +6,11 @@ const perfume ={
     suitableFor:"woman",
     inventory:"three numbers",
     price:"50$",
-    sale:function() {
-        if(add){
-            console.log("Add To Card")
-        }
-        else{
-            console.log("Remove From Card")
-        }
-    }
+    add:function() {
+        console.log("Add To Card")
+    },
+
+    delete:function() {
+        console.log("Remove From Card")
+    },
 }

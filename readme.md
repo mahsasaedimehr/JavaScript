@@ -13,5 +13,6 @@ end.
  write an object that display information about a product along with two methods, one to add to the shopping cart with empty content and one to remove from the shopping cart with empty content
  we use object to wirte this code 
  add specifications...
- and define function to show add to cart and remove from cart option
- 
+ define two function:
+ one of them for add to the shopping cart option
+ another one for remove from shopping cart option.
